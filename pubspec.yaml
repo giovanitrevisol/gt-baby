@@ -1,0 +1,25 @@
+name: gt_baby
+description: "Aplicativo Chá Revelação com temática de Desenvolvedor - BabyOS"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Visual & Animation Packages
+  animated_text_kit: ^4.2.2
+  confetti: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/resultado.json
